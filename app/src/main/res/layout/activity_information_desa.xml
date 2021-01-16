@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InformationDesa">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="410dp"
+        android:layout_height="2000dp">
+
+
+        <Button
+            android:id="@+id/aman"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Aman Damai" />
+
+        <Button
+            android:id="@+id/bakti"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Bakti Permai" />
+
+        <Button
+            android:id="@+id/cahaya"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Cahaya Gemilang" />
+
+        <Button
+            android:id="@+id/fajar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Fajar Harapan" />
+
+        <Button
+            android:id="@+id/indah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Indah kembara" />
+
+        <Button
+            android:id="@+id/restu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Restu" />
+
+        <Button
+            android:id="@+id/saujana"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Saujana" />
+
+        <Button
+            android:id="@+id/tekun"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Tekun" />
+    </LinearLayout>
+
+
+</ScrollView>

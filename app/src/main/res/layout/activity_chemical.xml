@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Chemical">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="362dp"
+        android:layout_height="191dp"
+        android:layout_marginTop="52dp"
+        android:gravity="center"
+        android:text="School of Chemical Sciences"
+        android:textSize="38dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="390dp"
+        android:layout_height="30dp"
+        android:text="Telephone Number: +604 - 6533262     |  Fax:  +604 - 6574854"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="243dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="373dp"
+        android:layout_height="37dp"
+        android:text="Dean email: r_adnan@usm.my (Profesor Dr. Rohana Binti Adnan)"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="292dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="G09 Building"
+        tools:layout_editor_absoluteX="157dp"
+        tools:layout_editor_absoluteY="366dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="352dp"
+        android:layout_height="84dp"
+        android:text="The school occupies a four storey building which houses research and teaching facilities. An annex was recently added due to the expansion of analytical and industrial chemistry programs."
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="397dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
