@@ -20,6 +20,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/usm_crest" />
 
+
     <TextView
         android:id="@+id/computertextView"
         android:layout_width="399dp"
@@ -42,7 +43,7 @@
         android:layout_height="51dp"
         android:layout_marginTop="176dp"
         android:gravity="center"
-        android:text="School Of Computer Science"
+        android:text="School of Computer Sciences"
         android:textSize="30dp"
         android:textStyle="bold"
         android:textColor="@color/black"
@@ -55,7 +56,7 @@
         android:id="@+id/computertextView2"
         android:layout_width="411dp"
         android:layout_height="242dp"
-        android:text="@string/computer"
+        android:text="@string/Computer"
         android:textSize="20dp"
         android:textColor="@color/black"
         android:background="#fff2df"
@@ -66,9 +67,5 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.572" />
 
-    <androidx.constraintlayout.Constraints
-        android:id="@+id/constraints5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
