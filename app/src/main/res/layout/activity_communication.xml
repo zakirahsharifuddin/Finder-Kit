@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".Communication">
 
-      <ImageView
+    <ImageView
         android:id="@+id/imageView2"
         android:layout_width="345dp"
         android:layout_height="605dp"
@@ -21,49 +21,49 @@
         app:srcCompat="@drawable/usm_crest" />
 
     <TextView
-        android:id="@+id/textView2"
-        android:layout_width="318dp"
-        android:layout_height="155dp"
-        android:layout_marginTop="52dp"
+        android:id="@+id/communicationtextView"
+        android:layout_width="399dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="71dp"
+        android:layout_marginBottom="128dp"
         android:gravity="center"
-        android:text="School of Communication"
+        android:text="USM Finder KIT"
         android:textSize="38dp"
         android:textStyle="bold"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.186" />
+
+    <TextView
+        android:id="@+id/communicationtextView3"
+        android:layout_width="399dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="176dp"
+        android:gravity="center"
+        android:text="School Of Communication"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:background="#fff2df"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView20"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Tel : 04-653 3601/653 3602  |  Fax: 04-6577736"
-        tools:layout_editor_absoluteX="46dp"
-        tools:layout_editor_absoluteY="245dp" />
-
-    <TextView
-        android:id="@+id/textView21"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text=" Email : dean_com@usm.my"
-        tools:layout_editor_absoluteX="46dp"
-        tools:layout_editor_absoluteY="290dp" />
-
-    <TextView
-        android:id="@+id/textView22"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="C10 Building"
-        tools:layout_editor_absoluteX="46dp"
-        tools:layout_editor_absoluteY="338dp" />
-
-    <TextView
-        android:id="@+id/textView23"
-        android:layout_width="313dp"
-        android:layout_height="42dp"
-        android:text="Facilities: Film and Broadcast, Persuasive Communication, Journalism"
-        tools:layout_editor_absoluteX="46dp"
-        tools:layout_editor_absoluteY="382dp" />
+        android:id="@+id/communicationtextView2"
+        android:layout_width="411dp"
+        android:layout_height="242dp"
+        android:text="@string/communication"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:background="#fff2df"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.572" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

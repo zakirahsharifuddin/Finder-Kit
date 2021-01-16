@@ -6,8 +6,8 @@
     android:layout_height="match_parent"
     tools:context=".DistanceEdu">
 
-      <ImageView
-        android:id="@+id/imageView2"
+    <ImageView
+        android:id="@+id/disteduView2"
         android:layout_width="345dp"
         android:layout_height="605dp"
         android:layout_marginStart="33dp"
@@ -21,56 +21,49 @@
         app:srcCompat="@drawable/usm_crest" />
 
     <TextView
-        android:id="@+id/textView2"
-        android:layout_width="323dp"
-        android:layout_height="150dp"
-        android:layout_marginTop="40dp"
+        android:id="@+id/distedutextView"
+        android:layout_width="399dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="71dp"
+        android:layout_marginBottom="128dp"
         android:gravity="center"
-        android:text="School of Distance Education"
+        android:text="USM Finder KIT"
         android:textSize="38dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.186" />
+
+    <TextView
+        android:id="@+id/distedutextView3"
+        android:layout_width="405dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="180dp"
+        android:background="#fff2df"
+        android:gravity="center"
+        android:text="School Of Distance Education"
+        android:textColor="@color/black"
+        android:textSize="30dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView31"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Tel: +604-6536197 | Fax: +604-6576000"
-        tools:layout_editor_absoluteX="44dp"
-        tools:layout_editor_absoluteY="232dp" />
-
-    <TextView
-        android:id="@+id/textView33"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Email: tda_cde@usm.my"
-        tools:layout_editor_absoluteX="44dp"
-        tools:layout_editor_absoluteY="271dp" />
-
-    <TextView
-        android:id="@+id/textView34"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Dean: Associate Professor Dr. Zoraini Wati M Abas"
-        tools:layout_editor_absoluteX="44dp"
-        tools:layout_editor_absoluteY="310dp" />
-
-    <TextView
-        android:id="@+id/textView35"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="E39 Building"
-        tools:layout_editor_absoluteX="45dp"
-        tools:layout_editor_absoluteY="352dp" />
-
-    <TextView
-        android:id="@+id/textView36"
-        android:layout_width="314dp"
-        android:layout_height="41dp"
-        android:text="Oldest distance education program at university level in Malaysia"
-        tools:layout_editor_absoluteX="44dp"
-        tools:layout_editor_absoluteY="393dp" />
+        android:id="@+id/computertextView2"
+        android:layout_width="411dp"
+        android:layout_height="242dp"
+        android:background="#fff2df"
+        android:text="@string/computer"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.65" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

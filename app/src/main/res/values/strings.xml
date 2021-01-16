@@ -115,9 +115,66 @@
     </string>
 
 
+<string name="arts">
 
+  <br> Telephone Number: 604 – 653 3888 ext 3621 / 3415 </br>
+   <br>   Fax Number: 604 – 657 66296 </br>
+    <br>  Dean email: dean_arts@usm.my </br>
+   <br>   Email: hidayahrahman@usm.my (Norhidayah Abdul Rahman - Assistant Registrar) </br>
+   <br>   D20 Building, opposite to CIMB Bank </br>
+    <br>  Facilities includes Galeri Adiwarna which is an art exhibition gallery </br>
 
+</string>
 
+    <string name="biology">
+
+      <br>  Tel: (604)6533181 | Fax: (604) 6565125 </br>
+      <br>  Dean Email: dean_bio@usm.my </br>
+      <br>  G08 building, Persiaran Sains </br>
+      <br>  Five main research laboratories, namely, Plant Pathology Laboratory, Phytochemistry Laboratory, Biotechnology and Molecular Biology Laboratory, Microbiology Laboratory, and Fish Biology Laboratory. </br>
+      <br>  Houses teaching laboratories for Plant Pathology, Microbiology and Biotechnology. Academic staff offices are located within the two buildings. </br>
+      <br>  Supported by other facilities such as Electron Microscope Unit, Herbarium, Plant House and Fish House. </br>
+
+    </string>
+
+    <string name="chemical" >
+
+      <br>  Telephone Number: +604 - 6533262     |  Fax:  +604 - 6574854 </br>
+     <br>   Dean email: r_adnan@usm.my (Profesor Dr. Rohana Binti Adnan) </br>
+     <br>   G09 Building </br>
+     <br>    The school occupies a four storey building which houses research and teaching facilities. An annex was recently added due to the expansion of analytical and industrial chemistry programs. </br>
+
+    </string>
+
+    <string name="computer" >
+
+      <br>  Tel: +604-653 3647/4381| Fax: +604-653 3648 </br>
+     <br>   Email: cs@usm.my  </br>
+    <br>    Dean: Professor Dr. Bahari Belaton  </br>
+      <br>  Dean Email: bahari@usm.my  </br>
+      <br>  USM is ranked within the top 100 universities in the world for Computer Science and Information Systems (QS World University Rankings, 2017). </br>
+      <br>  Facilities include a lecture hall, 4 computer laboratories, 2 tutorial rooms with projector, 1 student selfe-serve cafe with 3 vending machines, 1 student lounge, 2 elevators and 1 viva room  </br>
+
+    </string>
+
+    <string name = "communication">
+
+    <br>  Tel : 04-653 3601/653 3602  |  Fax: 04-6577736 </br>
+    <br>   Email : dean_com@usm.my </br>
+    <br>  C10 Building </br>
+    <br>  Facilities: Film and Broadcast, Persuasive Communication, Journalism </br>
+
+    </string>
+
+    <string name="distedu" >
+
+      <br>  Tel: +604-6536197 | Fax: +604-6576000 </br>
+      <br>  Email: tda_cde@usm.my </br>
+       <br> Dean: Associate Professor Dr. Zoraini Wati M Abas </br>
+       <br> E39 Building </br>
+       <br> Oldest distance education program at university level in Malaysia </br>
+
+    </string>
 
 
 </resources>
