@@ -24,7 +24,7 @@
 
 
     <TextView
-        android:id="@+id/amantextView3"
+        android:id="@+id/baktitextView3"
         android:layout_width="399dp"
         android:layout_height="51dp"
         android:layout_marginTop="176dp"

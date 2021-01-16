@@ -22,6 +22,19 @@
         app:layout_constraintVertical_bias="0.186" />
 
     <TextView
+        android:id="@+id/tekuntextView3"
+        android:layout_width="399dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="176dp"
+        android:gravity="center"
+        android:text="Tekun"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
         android:id="@+id/tekuntextView2"
         android:layout_width="411dp"
         android:layout_height="242dp"
