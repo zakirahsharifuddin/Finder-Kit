@@ -21,4 +21,14 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.186" />
 
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="311dp"
+        android:layout_height="401dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="203dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
