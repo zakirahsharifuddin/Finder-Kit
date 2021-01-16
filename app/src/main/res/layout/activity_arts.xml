@@ -6,58 +6,65 @@
     android:layout_height="match_parent"
     tools:context=".Arts">
 
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="345dp"
+        android:layout_height="605dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="78dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/usm_crest" />
+
     <TextView
-        android:id="@+id/textView2"
-        android:layout_width="402dp"
-        android:layout_height="61dp"
-        android:layout_marginTop="68dp"
+        android:id="@+id/artstextView"
+        android:layout_width="399dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="71dp"
+        android:layout_marginBottom="128dp"
         android:gravity="center"
-        android:text="School of Arts"
+        android:text="USM Finder KIT"
         android:textSize="38dp"
         android:textStyle="bold"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.186" />
+
+    <TextView
+        android:id="@+id/artstextView3"
+        android:layout_width="399dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="176dp"
+        android:gravity="center"
+        android:text="School Of Arts"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:background="#fff2df"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="48dp"
-        android:text="Dean email: dean_arts@usm.my"
+        android:id="@+id/artstextView2"
+        android:layout_width="411dp"
+        android:layout_height="242dp"
+        android:text="@string/arts"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:background="#fff2df"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="245dp" />
-
-    <TextView
-        android:id="@+id/textView13"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="48dp"
-        android:text="D20 Building, opposite to CIMB Bank"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="302dp" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Telephone Number: 604 – 653 3888 ext 3621 / 3415"
-        tools:layout_editor_absoluteX="48dp"
-        tools:layout_editor_absoluteY="198dp" />
-
-    <TextView
-        android:id="@+id/textView10"
-        android:layout_width="326dp"
-        android:layout_height="72dp"
-        android:text="Facilities include Galeri Adiwarna which is an art exhibition"
-        tools:layout_editor_absoluteX="48dp"
-        tools:layout_editor_absoluteY="367dp" />
-
-    <androidx.constraintlayout.Constraints
-        android:id="@+id/constraints7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.572" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

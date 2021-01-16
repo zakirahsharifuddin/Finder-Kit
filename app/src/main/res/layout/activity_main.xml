@@ -31,7 +31,7 @@
         android:layout_marginBottom="664dp"
         android:gravity="center"
         android:text="USM Finder KIT"
-        android:textSize="32dp"
+        android:textSize="38dp"
         android:textStyle="bold"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
