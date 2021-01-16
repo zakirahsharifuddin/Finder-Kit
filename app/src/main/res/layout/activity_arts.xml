@@ -21,60 +21,43 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView3"
-        android:layout_width="342dp"
-        android:layout_height="36dp"
-        android:text="Telephone Number: 604 – 653 3888 ext 3621 / 3415"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="195dp" />
-
-    <TextView
-        android:id="@+id/textView10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Fax Number: 604 – 657 66296"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="231dp" />
-
-    <TextView
         android:id="@+id/textView11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
         android:text="Dean email: dean_arts@usm.my"
-        tools:layout_editor_absoluteX="20dp"
-        tools:layout_editor_absoluteY="274dp" />
-
-    <TextView
-        android:id="@+id/textView12"
-        android:layout_width="344dp"
-        android:layout_height="44dp"
-        android:text="Email: hidayahrahman@usm.my (Norhidayah Abdul Rahman - Assistant Registrar)"
-        tools:layout_editor_absoluteX="20dp"
-        tools:layout_editor_absoluteY="321dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="245dp" />
 
     <TextView
         android:id="@+id/textView13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
         android:text="D20 Building, opposite to CIMB Bank"
-        tools:layout_editor_absoluteX="20dp"
-        tools:layout_editor_absoluteY="378dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="302dp" />
 
     <TextView
-        android:id="@+id/textView14"
-        android:layout_width="375dp"
-        android:layout_height="45dp"
-        android:text="Facilities includes Galeri Adiwarna which is an art exhibition gallery"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="417dp" />
-
-    <TextView
-        android:id="@+id/textView19"
+        android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="20dp"
-        tools:layout_editor_absoluteY="480dp" />
+        android:text="Telephone Number: 604 – 653 3888 ext 3621 / 3415"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="198dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="326dp"
+        android:layout_height="72dp"
+        android:text="Facilities include Galeri Adiwarna which is an art exhibition"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="367dp" />
+
+    <androidx.constraintlayout.Constraints
+        android:id="@+id/constraints7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

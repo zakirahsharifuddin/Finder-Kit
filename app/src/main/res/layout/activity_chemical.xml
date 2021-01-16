@@ -43,7 +43,7 @@
         android:layout_height="wrap_content"
         android:text="G09 Building"
         tools:layout_editor_absoluteX="157dp"
-        tools:layout_editor_absoluteY="366dp" />
+        tools:layout_editor_absoluteY="375dp" />
 
     <TextView
         android:id="@+id/textView18"
@@ -51,6 +51,11 @@
         android:layout_height="84dp"
         android:text="The school occupies a four storey building which houses research and teaching facilities. An annex was recently added due to the expansion of analytical and industrial chemistry programs."
         tools:layout_editor_absoluteX="34dp"
-        tools:layout_editor_absoluteY="397dp" />
+        tools:layout_editor_absoluteY="415dp" />
+
+    <androidx.constraintlayout.Constraints
+        android:id="@+id/constraints2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
