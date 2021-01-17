@@ -15,7 +15,7 @@
       <br>    No.Fax: 04-656 6571</br>
     </string>
 
-    <string name= "Bakti">
+    <string name="Bakti">
 
         Total Blocks = 9
 
@@ -31,7 +31,7 @@
 
     </string>
 
-    <string name= "Cahaya">
+    <string name="Cahaya">
 
         Total Blocks = 3
 
@@ -252,6 +252,15 @@
         <br> C06 Building(office) </br>
         <br> Facilities are Computer Lab, Conference Room, Graduate Hall and Meeting Room </br>
         <br> Focus on Anthropology and Sociology, Development Planning and Management, Economics, Political Science and Social Work </br>
+    </string>
+
+    <string name="about">
+
+    <br> Finder Version 1.0.0 </br>
+    <br> App developed and maintained by USM Students </br>
+    <br> Optimised for Android versions after 6.0 only ( Marshmallow ) </br>
+    <br> Help us to improve by clicking feedback button below  </br>
+
     </string>
 
 </resources>

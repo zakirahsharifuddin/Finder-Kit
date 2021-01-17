@@ -10,6 +10,7 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity {
         public Button mapbutton;
         public Button infobutton;
+        public Button aboutbutton;
 
 
         @Override
@@ -19,6 +20,16 @@ public class MainActivity extends AppCompatActivity {
 
             mapbutton = (Button) findViewById(R.id.mapbtn);
             infobutton = (Button) findViewById(R.id.infobtn);
+            aboutbutton = (Button) findViewById(R.id.aboutbtn);
+
+
+            aboutbutton.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent intent = new Intent(MainActivity.this,About.class);
+                    startActivity(intent);
+                }
+            });
 
             infobutton.setOnClickListener(new View.OnClickListener() {
                 @Override

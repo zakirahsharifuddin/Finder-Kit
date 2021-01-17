@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
-
+    tools:context=".Feedback">
 
     <ImageView
         android:id="@+id/imageView2"
@@ -17,8 +16,10 @@
         android:layout_marginBottom="78dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/usm_crest" />
 
     <TextView
@@ -41,42 +42,58 @@
         app:layout_constraintVertical_bias="0.0" />
 
 
-    <Button
-        android:id="@+id/mapbtn"
-        android:layout_width="328dp"
-        android:layout_height="130dp"
-        android:text="Map"
+    <EditText
+        android:id="@+id/emailid"
+        android:layout_width="311dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="44dp"
+        android:background="#fff2df"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nameid" />
+
+    <EditText
+        android:id="@+id/commentid"
+        android:layout_width="311dp"
+        android:layout_height="166dp"
+        android:background="#fff2df"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Comment"
+        android:inputType="textMultiLine"
+        android:textColor="@color/black"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.506"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.322" />
+        app:layout_constraintTop_toBottomOf="@+id/emailid"
+        app:layout_constraintVertical_bias="0.152" />
+
+    <EditText
+        android:id="@+id/nameid"
+        android:layout_width="311dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="172dp"
+        android:hint="Name"
+        android:textColor="@color/black"
+        android:background="#fff2df"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/infobtn"
-        android:layout_width="328dp"
-        android:layout_height="130dp"
-        android:layout_marginBottom="184dp"
-        android:text="Information"
+        android:id="@+id/submitid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Submit"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.518"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/mapbtn"
-        app:layout_constraintVertical_bias="0.161" />
-
-    <Button
-        android:id="@+id/aboutbtn"
-        android:layout_width="328dp"
-        android:layout_height="130dp"
-        android:layout_marginTop="17dp"
-        android:layout_marginBottom="40dp"
-        android:text="About"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.518"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/infobtn" />
-
+        app:layout_constraintTop_toBottomOf="@+id/commentid"
+        app:layout_constraintVertical_bias="0.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>

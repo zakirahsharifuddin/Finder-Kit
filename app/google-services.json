@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "541834305189",
+    "project_id": "usm-finder-kit",
+    "storage_bucket": "usm-finder-kit.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:541834305189:android:2219bcaa033d1595e3f74c",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "541834305189-2hqususs1i28tnmqg0sgb9l145l3vocq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIn56oL0X7F15RxUbKmap_M8W2gfUiXUU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "541834305189-2hqususs1i28tnmqg0sgb9l145l3vocq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
