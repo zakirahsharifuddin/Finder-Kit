@@ -43,9 +43,11 @@
 
     <Button
         android:id="@+id/mapbtn"
-        android:layout_width="328dp"
-        android:layout_height="130dp"
+        android:layout_width="296dp"
+        android:layout_height="116dp"
+        android:fadeScrollbars="false"
         android:text="Map"
+        app:cornerRadius="60dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.506"
@@ -55,10 +57,11 @@
 
     <Button
         android:id="@+id/infobtn"
-        android:layout_width="328dp"
-        android:layout_height="130dp"
+        android:layout_width="296dp"
+        android:layout_height="116dp"
         android:layout_marginBottom="184dp"
         android:text="Information"
+        app:cornerRadius="60dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.518"
@@ -68,15 +71,17 @@
 
     <Button
         android:id="@+id/aboutbtn"
-        android:layout_width="328dp"
-        android:layout_height="130dp"
+        android:layout_width="296dp"
+        android:layout_height="116dp"
         android:layout_marginTop="17dp"
         android:layout_marginBottom="40dp"
         android:text="About"
+        app:cornerRadius="60dp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintHorizontal_bias="0.521"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/infobtn" />
+        app:layout_constraintTop_toBottomOf="@+id/infobtn"
+        app:layout_constraintVertical_bias="0.322" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

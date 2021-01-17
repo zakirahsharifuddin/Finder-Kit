@@ -39,12 +39,16 @@
         app:srcCompat="@drawable/usm_crest" />
 
     <ScrollView
-        android:layout_width="419dp"
-        android:layout_height="533dp"
+        android:layout_width="372dp"
+        android:layout_height="438dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
         android:layout_marginBottom="4dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="-4dp">
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/informationdesatextView"
+        tools:ignore="MissingConstraints">
 
         <LinearLayout
             android:layout_width="410dp"
@@ -54,59 +58,67 @@
 
             <Button
                 android:id="@+id/aman"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_width="373dp"
+                android:layout_height="73dp"
                 android:layout_weight="1"
-                android:text="Aman Damai" />
+                android:text="Aman Damai"
+                app:cornerRadius="60dp" />
 
             <Button
                 android:id="@+id/bakti"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_width="373dp"
+                android:layout_height="73dp"
                 android:layout_weight="1"
-                android:text="Bakti Permai" />
+                android:text="Bakti Permai"
+                app:cornerRadius="60dp" />
 
             <Button
                 android:id="@+id/cahaya"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_width="373dp"
+                android:layout_height="73dp"
                 android:layout_weight="1"
-                android:text="Cahaya Gemilang" />
+                android:text="Cahaya Gemilang"
+                app:cornerRadius="60dp" />
 
             <Button
                 android:id="@+id/fajar"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_width="373dp"
+                android:layout_height="73dp"
                 android:layout_weight="1"
-                android:text="Fajar Harapan" />
+                android:text="Fajar Harapan"
+                app:cornerRadius="60dp" />
 
             <Button
                 android:id="@+id/indah"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_width="373dp"
+                android:layout_height="73dp"
                 android:layout_weight="1"
-                android:text="Indah kembara" />
+                android:text="Indah kembara"
+                app:cornerRadius="60dp" />
 
             <Button
                 android:id="@+id/restu"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_width="373dp"
+                android:layout_height="73dp"
                 android:layout_weight="1"
-                android:text="Restu" />
+                android:text="Restu"
+                app:cornerRadius="60dp" />
 
             <Button
                 android:id="@+id/saujana"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_width="373dp"
+                android:layout_height="73dp"
                 android:layout_weight="1"
-                android:text="Saujana" />
+                android:text="Saujana"
+                app:cornerRadius="60dp" />
 
             <Button
                 android:id="@+id/tekun"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_width="373dp"
+                android:layout_height="73dp"
                 android:layout_weight="1"
-                android:text="Tekun" />
+                android:text="Tekun"
+                app:cornerRadius="60dp" />
         </LinearLayout>
     </ScrollView>
 
