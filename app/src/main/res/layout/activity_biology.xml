@@ -38,6 +38,7 @@
         android:layout_width="275dp"
         android:layout_height="19dp"
         android:text="Tel: (604)6533181 | Fax: (604) 6565125"
+        android:textColor="#000000"
         tools:layout_editor_absoluteX="33dp"
         tools:layout_editor_absoluteY="199dp" />
 
@@ -46,6 +47,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Dean Email: dean_bio@usm.my"
+        android:textColor="#000000"
         tools:layout_editor_absoluteX="33dp"
         tools:layout_editor_absoluteY="242dp" />
 
@@ -54,6 +56,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="G08 building, Persiaran Sains"
+        android:textColor="#000000"
         tools:layout_editor_absoluteX="34dp"
         tools:layout_editor_absoluteY="282dp" />
 
@@ -62,6 +65,7 @@
         android:layout_width="342dp"
         android:layout_height="81dp"
         android:text="Five main research laboratories, namely, Plant Pathology Laboratory, Phytochemistry Laboratory, Biotechnology and Molecular Biology Laboratory, Microbiology Laboratory, and Fish Biology Laboratory. "
+        android:textColor="#000000"
         tools:layout_editor_absoluteX="33dp"
         tools:layout_editor_absoluteY="325dp" />
 
@@ -70,6 +74,7 @@
         android:layout_width="344dp"
         android:layout_height="65dp"
         android:text="Houses teaching laboratories for Plant Pathology, Microbiology and Biotechnology. Academic staff offices are located within the two buildings."
+        android:textColor="#000000"
         tools:layout_editor_absoluteX="34dp"
         tools:layout_editor_absoluteY="406dp" />
 
@@ -78,6 +83,7 @@
         android:layout_width="349dp"
         android:layout_height="66dp"
         android:text="Supported by other facilities such as Electron Microscope Unit, Herbarium, Plant House and Fish House."
+        android:textColor="#000000"
         tools:layout_editor_absoluteX="34dp"
         tools:layout_editor_absoluteY="471dp" />
 

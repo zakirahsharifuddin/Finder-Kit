@@ -57,6 +57,7 @@
         android:layout_height="174dp"
         android:background="#fff2df"
         android:text="@string/communication"
+        android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
