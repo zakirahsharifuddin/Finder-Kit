@@ -21,48 +21,49 @@
         app:srcCompat="@drawable/usm_crest" />
 
     <TextView
-        android:id="@+id/textView2"
-        android:layout_width="343dp"
-        android:layout_height="173dp"
-        android:layout_marginTop="48dp"
+        android:id="@+id/eduSciencetextView"
+        android:layout_width="399dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="71dp"
+        android:layout_marginBottom="128dp"
         android:gravity="center"
-        android:text="School of Educational Sciences"
+        android:text="USM Finder KIT"
         android:textSize="38dp"
         android:textStyle="bold"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.186" />
+
+    <TextView
+        android:id="@+id/eduSciencetextView3"
+        android:layout_width="399dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="176dp"
+        android:gravity="center"
+        android:text="School of Educational Sciences"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:background="#fff2df"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView32"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="66dp"
-        tools:layout_editor_absoluteY="262dp" />
-
-    <TextView
-        android:id="@+id/textView37"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="66dp"
-        tools:layout_editor_absoluteY="328dp" />
-
-    <TextView
-        android:id="@+id/textView38"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="66dp"
-        tools:layout_editor_absoluteY="387dp" />
-
-    <TextView
-        android:id="@+id/textView39"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="69dp"
-        tools:layout_editor_absoluteY="433dp" />
+        android:id="@+id/eduSciencetextView2"
+        android:layout_width="408dp"
+        android:layout_height="411dp"
+        android:background="#fff2df"
+        android:text="@string/EduScience"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.89" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

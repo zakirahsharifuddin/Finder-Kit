@@ -35,8 +35,8 @@
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="275dp"
+        android:layout_height="19dp"
         android:text="Tel: (604)6533181 | Fax: (604) 6565125"
         tools:layout_editor_absoluteX="33dp"
         tools:layout_editor_absoluteY="199dp" />
@@ -59,24 +59,24 @@
 
     <TextView
         android:id="@+id/textView7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="342dp"
+        android:layout_height="81dp"
         android:text="Five main research laboratories, namely, Plant Pathology Laboratory, Phytochemistry Laboratory, Biotechnology and Molecular Biology Laboratory, Microbiology Laboratory, and Fish Biology Laboratory. "
         tools:layout_editor_absoluteX="33dp"
         tools:layout_editor_absoluteY="325dp" />
 
     <TextView
         android:id="@+id/textView8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="344dp"
+        android:layout_height="65dp"
         android:text="Houses teaching laboratories for Plant Pathology, Microbiology and Biotechnology. Academic staff offices are located within the two buildings."
         tools:layout_editor_absoluteX="34dp"
         tools:layout_editor_absoluteY="406dp" />
 
     <TextView
         android:id="@+id/textView9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="349dp"
+        android:layout_height="66dp"
         android:text="Supported by other facilities such as Electron Microscope Unit, Herbarium, Plant House and Fish House."
         tools:layout_editor_absoluteX="34dp"
         tools:layout_editor_absoluteY="471dp" />

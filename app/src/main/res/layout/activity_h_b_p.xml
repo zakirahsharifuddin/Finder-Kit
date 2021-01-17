@@ -22,19 +22,48 @@
 
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/hbptextView"
         android:layout_width="399dp"
         android:layout_height="51dp"
-        android:layout_marginTop="71dp"
-        android:layout_marginBottom="128dp"
+        android:layout_marginTop="48dp"
         android:gravity="center"
         android:text="USM Finder KIT "
+        android:textColor="@color/black"
         android:textSize="38dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/hbptextView3"
+        android:layout_width="399dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="136dp"
+        android:background="#fff2df"
+        android:gravity="center"
+        android:text="School of Housing, Building and Planning"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/hbptextView2"
+        android:layout_width="369dp"
+        android:layout_height="405dp"
+        android:background="#fff2df"
+        android:text="@string/HBP"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.619"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.186" />
+        app:layout_constraintVertical_bias="0.8" />
 
     <TextView
         android:id="@+id/textView40"
