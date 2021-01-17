@@ -6,10 +6,11 @@
     android:layout_height="match_parent"
     tools:context=".HBP">
 
- <ImageView
+
+    <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="345dp"
-        android:layout_height="605dp"
+        android:layout_width="459dp"
+        android:layout_height="925dp"
         android:layout_marginStart="33dp"
         android:layout_marginTop="48dp"
         android:layout_marginEnd="33dp"
@@ -18,14 +19,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/usm_crest" />
-
+        app:layout_constraintVertical_bias="0.493"
+        app:srcCompat="@drawable/hbp" />
 
     <TextView
         android:id="@+id/hbptextView"
         android:layout_width="399dp"
         android:layout_height="51dp"
         android:layout_marginTop="48dp"
+        android:background="#A0AEFF"
         android:gravity="center"
         android:text="USM Finder KIT "
         android:textColor="@color/black"
@@ -37,9 +39,9 @@
 
     <TextView
         android:id="@+id/hbptextView3"
-        android:layout_width="399dp"
-        android:layout_height="51dp"
-        android:layout_marginTop="136dp"
+        android:layout_width="391dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="124dp"
         android:background="#fff2df"
         android:gravity="center"
         android:text="School of Housing, Building and Planning"
@@ -47,6 +49,7 @@
         android:textSize="30dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.681"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -61,18 +64,9 @@
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.619"
+        app:layout_constraintHorizontal_bias="0.636"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.8" />
-
-    <TextView
-        android:id="@+id/textView40"
-        android:layout_width="311dp"
-        android:layout_height="401dp"
-        android:text="TextView"
-        android:textSize="14sp"
-        tools:layout_editor_absoluteX="50dp"
-        tools:layout_editor_absoluteY="203dp" />
+        app:layout_constraintVertical_bias="0.707" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

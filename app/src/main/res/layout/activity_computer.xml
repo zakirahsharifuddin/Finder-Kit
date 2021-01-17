@@ -8,8 +8,8 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="345dp"
-        android:layout_height="605dp"
+        android:layout_width="444dp"
+        android:layout_height="821dp"
         android:layout_marginStart="33dp"
         android:layout_marginTop="48dp"
         android:layout_marginEnd="33dp"
@@ -18,7 +18,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/usm_crest" />
+        app:srcCompat="@drawable/comp" />
 
 
     <TextView
@@ -26,6 +26,7 @@
         android:layout_width="399dp"
         android:layout_height="51dp"
         android:layout_marginTop="40dp"
+        android:background="#FFFFFF"
         android:gravity="center"
         android:text="USM Finder KIT"
         android:textColor="@color/black"

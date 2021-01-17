@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FF74A4"
     tools:context=".Communication">
 
     <ImageView
@@ -18,35 +19,34 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/usm_crest" />
+        app:srcCompat="@drawable/achieve" />
 
     <TextView
         android:id="@+id/communicationtextView"
-        android:layout_width="399dp"
-        android:layout_height="51dp"
+        android:layout_width="344dp"
+        android:layout_height="58dp"
         android:layout_marginTop="71dp"
-        android:layout_marginBottom="128dp"
+        android:background="#92F3FF"
         android:gravity="center"
         android:text="USM Finder KIT"
+        android:textColor="@color/black"
         android:textSize="38dp"
         android:textStyle="bold"
-        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.186" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/communicationtextView3"
         android:layout_width="399dp"
         android:layout_height="51dp"
         android:layout_marginTop="176dp"
+        android:background="#fff2df"
         android:gravity="center"
         android:text="School Of Communication"
+        android:textColor="@color/black"
         android:textSize="30dp"
         android:textStyle="bold"
-        android:textColor="@color/black"
-        android:background="#fff2df"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

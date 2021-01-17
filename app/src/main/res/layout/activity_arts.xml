@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FF5E95"
     tools:context=".Arts">
 
     <ImageView
@@ -16,38 +17,41 @@
         android:layout_marginBottom="78dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/usm_crest" />
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/achieve" />
 
     <TextView
         android:id="@+id/artstextView"
         android:layout_width="399dp"
         android:layout_height="51dp"
-        android:layout_marginTop="71dp"
-        android:layout_marginBottom="128dp"
+        android:layout_marginTop="92dp"
+        android:background="#89F2FF"
         android:gravity="center"
         android:text="USM Finder KIT"
+        android:textColor="@color/black"
         android:textSize="38dp"
         android:textStyle="bold"
-        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.186" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/artstextView3"
         android:layout_width="399dp"
         android:layout_height="51dp"
-        android:layout_marginTop="176dp"
+        android:layout_marginTop="272dp"
+        android:background="#fff2df"
         android:gravity="center"
         android:text="School Of Arts"
+        android:textColor="@color/black"
         android:textSize="30dp"
         android:textStyle="bold"
-        android:textColor="@color/black"
-        android:background="#fff2df"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -64,7 +68,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.547" />
+        app:layout_constraintVertical_bias="0.633" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
