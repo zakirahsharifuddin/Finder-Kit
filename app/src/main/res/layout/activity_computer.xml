@@ -4,6 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:backgroundTint="#FFFFFF"
+    android:foregroundTint="#FFFFFF"
     tools:context=".Computer">
 
     <ImageView
@@ -18,14 +20,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/comp" />
+        app:srcCompat="@drawable/compsci" />
 
 
     <TextView
         android:id="@+id/computertextView"
-        android:layout_width="399dp"
-        android:layout_height="51dp"
-        android:layout_marginTop="40dp"
+        android:layout_width="312dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="52dp"
         android:background="#FFFFFF"
         android:gravity="center"
         android:text="USM Finder KIT"
@@ -33,39 +35,42 @@
         android:textSize="38dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/computertextView3"
-        android:layout_width="408dp"
-        android:layout_height="70dp"
-        android:layout_marginTop="100dp"
-        android:background="#fff2df"
+        android:layout_width="372dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="140dp"
+        android:background="#FFEB3B"
         android:gravity="center"
         android:text="School of Computer Sciences"
         android:textColor="@color/black"
         android:textSize="30dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.589"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/computertextView2"
-        android:layout_width="373dp"
-        android:layout_height="352dp"
-        android:background="#fff2df"
+        android:layout_width="390dp"
+        android:layout_height="407dp"
+        android:background="#000000"
+        android:shadowColor="#FF2222"
         android:text="@string/Computer"
         android:textAlignment="center"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.627"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.664" />
+        app:layout_constraintVertical_bias="0.84" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
