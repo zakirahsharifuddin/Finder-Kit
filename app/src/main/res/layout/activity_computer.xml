@@ -54,18 +54,18 @@
 
     <TextView
         android:id="@+id/computertextView2"
-        android:layout_width="411dp"
-        android:layout_height="242dp"
-        android:text="@string/Computer"
-        android:textSize="20dp"
-        android:textColor="@color/black"
+        android:layout_width="376dp"
+        android:layout_height="410dp"
         android:background="#fff2df"
+        android:text="@string/Computer"
+        android:textColor="@color/black"
+        android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.485"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.572" />
+        app:layout_constraintVertical_bias="0.862" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

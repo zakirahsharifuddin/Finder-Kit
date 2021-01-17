@@ -24,47 +24,46 @@
         android:id="@+id/IndustextView"
         android:layout_width="399dp"
         android:layout_height="51dp"
-        android:layout_marginTop="71dp"
-        android:layout_marginBottom="128dp"
+        android:layout_marginTop="32dp"
         android:gravity="center"
         android:text="USM Finder KIT"
+        android:textColor="@color/black"
         android:textSize="38dp"
         android:textStyle="bold"
-        android:textColor="@color/black"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.186" />
-
-    <TextView
-        android:id="@+id/IndustextView3"
-        android:layout_width="399dp"
-        android:layout_height="51dp"
-        android:layout_marginTop="176dp"
-        android:gravity="center"
-        android:text="School of Industrial Technology"
-        android:textSize="30dp"
-        android:textStyle="bold"
-        android:textColor="@color/black"
-        android:background="#fff2df"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/IndustextView2"
-        android:layout_width="411dp"
-        android:layout_height="242dp"
-        android:text="@string/IndusTech"
-        android:textSize="20dp"
-        android:textColor="@color/black"
+        android:id="@+id/IndustextView3"
+        android:layout_width="391dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="80dp"
         android:background="#fff2df"
+        android:gravity="center"
+        android:text="School of Industrial Technology"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/IndustextView2"
+        android:layout_width="402dp"
+        android:layout_height="442dp"
+        android:background="#fff2df"
+        android:text="@string/IndusTech"
+        android:textColor="@color/black"
+        android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.666"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.572" />
+        app:layout_constraintVertical_bias="0.823" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

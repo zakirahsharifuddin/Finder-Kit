@@ -25,46 +25,44 @@
         android:id="@+id/hbptextView"
         android:layout_width="399dp"
         android:layout_height="51dp"
-        android:layout_marginTop="71dp"
-        android:layout_marginBottom="128dp"
+        android:layout_marginTop="48dp"
         android:gravity="center"
         android:text="USM Finder KIT "
+        android:textColor="@color/black"
         android:textSize="38dp"
         android:textStyle="bold"
-        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.186" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/hbptextView3"
         android:layout_width="399dp"
         android:layout_height="51dp"
-        android:layout_marginTop="176dp"
+        android:layout_marginTop="136dp"
+        android:background="#fff2df"
         android:gravity="center"
         android:text="School of Housing, Building and Planning"
+        android:textColor="@color/black"
         android:textSize="30dp"
         android:textStyle="bold"
-        android:textColor="@color/black"
-        android:background="#fff2df"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/hbptextView2"
-        android:layout_width="411dp"
-        android:layout_height="242dp"
-        android:text="@string/HBP"
-        android:textSize="20dp"
-        android:textColor="@color/black"
+        android:layout_width="369dp"
+        android:layout_height="405dp"
         android:background="#fff2df"
+        android:text="@string/HBP"
+        android:textColor="@color/black"
+        android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.619"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.572" />
+        app:layout_constraintVertical_bias="0.8" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -40,30 +40,31 @@
         android:id="@+id/managementtextView3"
         android:layout_width="399dp"
         android:layout_height="51dp"
-        android:layout_marginTop="176dp"
+        android:layout_marginTop="120dp"
+        android:background="#fff2df"
         android:gravity="center"
         android:text="School of Management"
-        android:textSize="30dp"
-        android:textStyle="bold"
         android:textColor="@color/black"
-        android:background="#fff2df"
+        android:textSize="30sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/tekuntextView2"
-        android:layout_width="371dp"
-        android:layout_height="409dp"
+        android:id="@+id/managementtextView2"
+        android:layout_width="404dp"
+        android:layout_height="426dp"
         android:background="#fff2df"
         android:text="@string/management"
         android:textColor="@color/black"
-        android:textSize="20dp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.142"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.795" />
+        app:layout_constraintVertical_bias="0.901" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -24,47 +24,46 @@
         android:id="@+id/pharmacytextView"
         android:layout_width="399dp"
         android:layout_height="51dp"
-        android:layout_marginTop="71dp"
-        android:layout_marginBottom="128dp"
+        android:layout_marginTop="28dp"
         android:gravity="center"
         android:text="USM Finder KIT"
+        android:textColor="@color/black"
         android:textSize="38dp"
         android:textStyle="bold"
-        android:textColor="@color/black"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.186" />
-
-    <TextView
-        android:id="@+id/pharmacytextView3"
-        android:layout_width="399dp"
-        android:layout_height="51dp"
-        android:layout_marginTop="176dp"
-        android:gravity="center"
-        android:text="School of Pharmaceutical Sciences"
-        android:textSize="30dp"
-        android:textStyle="bold"
-        android:textColor="@color/black"
-        android:background="#fff2df"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/pharmacytextView2"
-        android:layout_width="411dp"
-        android:layout_height="242dp"
-        android:text="@string/Pharmacy"
-        android:textSize="20dp"
-        android:textColor="@color/black"
+        android:id="@+id/pharmacytextView3"
+        android:layout_width="404dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="76dp"
         android:background="#fff2df"
+        android:gravity="center"
+        android:text="School of Pharmaceutical Sciences"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/pharmacytextView2"
+        android:layout_width="407dp"
+        android:layout_height="243dp"
+        android:background="#fff2df"
+        android:text="@string/Pharmacy"
+        android:textColor="@color/black"
+        android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.572" />
+        app:layout_constraintVertical_bias="0.637" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
