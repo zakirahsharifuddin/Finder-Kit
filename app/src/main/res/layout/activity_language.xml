@@ -57,6 +57,7 @@
         android:layout_height="430dp"
         android:background="#fff2df"
         android:text="@string/Language"
+        android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
