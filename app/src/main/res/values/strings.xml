@@ -2,42 +2,42 @@
     <string name="app_name">My Application</string>
 
     <string name="Aman">
-        Total Blocks = 8
+        Total Blocks = 8.
 
         <br> Boys Blocks = K01, K02.</br>
-        <br> Girls Blocks = K03 , K04 , K05 , K06 , K07 , K08</br>
-        <br> Location : In Campus</br>
+        <br> Girls Blocks = K03 , K04 , K05 , K06 , K07 , K08.</br>
+        <br> Location : In Campus.</br>
            <br>   Desasiswa Aman Damai , Bangunan K10, </br>
          <br>     Universiti Sains Malaysia ,</br>
         <br>      11800 Gelugor ,Pulau Pinang.</br>
-        <br>  Email Pej.: | Web: http://web.usm.my/amandamai</br>
-      <br>    No.Tel: 04-653 3203</br>
-      <br>    No.Fax: 04-656 6571</br>
+        <br>  Email Pej.: | Web: http://web.usm.my/amandamai |</br>
+      <br>    No.Tel: 04-653 3203 |</br>
+      <br>    No.Fax: 04-656 6571 </br>
     </string>
 
     <string name="Bakti">
 
         Total Blocks = 9
 
-        <br> Undergrade Blocks = 2 </br>
-        <br> Postgrade Blocks = 7 </br>
-        <br> Location : In Campus</br>
+        <br> Undergrade Blocks = 2. </br>
+        <br> Postgrade Blocks = 7. </br>
+        <br> Location : In Campus.</br>
            <br>   Desasiswa Bakti Permai , </br>
          <br>     Universiti Sains Malaysia ,</br>
         <br>      11800 Gelugor ,Pulau Pinang.</br>
-        <br>  Email : baktipermai@usm.my</br>
-      <br>    No.Tel: 04-653 3192 </br>
+        <br>  Email : baktipermai@usm.my |</br>
+      <br>    No.Tel: 04-653 3192 |</br>
       <br>    No.Fax: 04-656 4612</br>
 
     </string>
 
     <string name="Cahaya">
 
-        Total Blocks = 3
+        Total Blocks = 3.
 
         <br> Student Blocks = 2 </br>
         <br> Management Office Blocks = 1 </br>
-        <br> Location : In Campus</br>
+        <br> Location : In Campus </br>
            <br>   Desasiswa Cahaya Gemilang, Bangunan H33, </br>
          <br>     Universiti Sains Malaysia ,</br>
         <br>      11800 Gelugor ,Pulau Pinang.</br>
@@ -47,12 +47,12 @@
     </string>
 
     <string name="Fajar">
-        Total Blocks = 3
+        Total Blocks = 3.
 
         <br> Boys Blocks = F26 </br>
         <br> Girls Blocks = F25 </br>
         <br> Cafe = 1 block </br>
-        <br> Location : In Campus</br>
+        <br> Location : In Campus </br>
            <br>   Desasiswa Aman Damai Fajar Harapan , </br>
          <br>     Universiti Sains Malaysia ,</br>
         <br>      11800 Gelugor ,Pulau Pinang.</br>
@@ -66,7 +66,7 @@
 
         <br> Boys Blocks = L12 </br>
         <br> Girls Blocks = L06, LO07, L11 </br>
-        <br> Location : In Campus</br>
+        <br> Location : In Campus |</br>
            <br>   Desasiswa Indah Kembara,  </br>
          <br>     Universiti Sains Malaysia ,</br>
         <br>      11800 Gelugor ,Pulau Pinang.</br>
