@@ -56,6 +56,7 @@
         android:layout_height="383dp"
         android:background="#fff2df"
         android:text="@string/Physics"
+        android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
